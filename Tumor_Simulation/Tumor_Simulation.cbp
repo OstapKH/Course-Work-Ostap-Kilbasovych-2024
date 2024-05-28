@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Tumor_Simulation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.85.0\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.85.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainDiffusionReaction">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/mainDiffusionReaction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 mainDiffusionReaction"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainDiffusionReaction/fast">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/mainDiffusionReaction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 mainDiffusionReaction/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automataMPI3D">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automataMPI3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automataMPI3D"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automataMPI3D/fast">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automataMPI3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automataMPI3D/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automata_2d">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automata_2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automata_2d"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automata_2d/fast">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automata_2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automata_2d/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automataMPI">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automataMPI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automataMPI"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="automataMPI/fast">
+				<Option output="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automataMPI" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_GMPXX=1"/>
+					<Add directory="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation"/>
+					<Add directory="/opt/homebrew/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 automataMPI/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Automata.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Automata.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/AutomataMPI.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/AutomataMPI.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/AutomataMPI3D.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/AutomataMPI3D.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Cell.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/Cell.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/DiffusionReaction2D.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/DiffusionReaction2D.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/DiffusionReaction3D.cpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/DiffusionReaction3D.hpp">
+			<Option target="mainDiffusionReaction"/>
+			<Option target="main"/>
+			<Option target="automataMPI3D"/>
+			<Option target="automata_2d"/>
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/automata_2d.cpp">
+			<Option target="automata_2d"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/mainDiffusionReaction.cpp">
+			<Option target="mainDiffusionReaction"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/main_automataMPI.cpp">
+			<Option target="automataMPI"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/main_automataMPI3D.cpp">
+			<Option target="automataMPI3D"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGALConfigBuildVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_CreateSingleSourceCGALProgram.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_SCM.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_SetupBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_SetupCGALDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_SetupCGAL_Qt5Dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_SetupGMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_add_test.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_enable_end_of_configuration_hook.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_setup_target_dependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/CGAL_target_use_TBB.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/FindGMP.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/FindGMPXX.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/CGAL/FindMPFR.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/Boost-1.85.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.85.0\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/Boost-1.85.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\Boost-1.85.0\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.85.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.85.0\"/>
+		</Unit>
+		<Unit filename="/Users/ostapkilbasovych/Desktop/Курсова/PPD-master-3/Tumor_Simulation/../../../../../../opt/homebrew/lib/cmake/boost_headers-1.85.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\boost_headers-1.85.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

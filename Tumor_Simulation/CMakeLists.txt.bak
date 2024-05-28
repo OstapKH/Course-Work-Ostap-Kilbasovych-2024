@@ -1,0 +1,44 @@
+cmake_minimum_required(VERSION 3.1...3.23)
+
+set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_C_COMPILER "mpicc")
+set(CMAKE_CXX_COMPILER "mpic++")
+
+project(Tumor_Simulation)
+
+if(CMAKE_COMPILER_IS_GNUCCX AND CMAKE_CXX_COMPILER_VERSION VERSION_LESS 4.4)
+  message("NOTICE: Examples in this directory require a version of gcc >= 4.4, and will not be compiled.")
+  return()
+endif()
+
+find_package(CGAL REQUIRED)
+find_package(MPI REQUIRED)
+find_package(Eigen3 3.1.0 QUIET)
+
+include(CGAL_Eigen3_support)
+#include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+
+#add_definitions(-DOMPI_SKIP_MPICXX)
+
+message(STATUS "Run: ${MPIEXEC} ${MPIEXEC_NUMPROC_FLAG} ${MPIEXEC_MAX_NUMPROCS} ${MPIEXEC_PREFLAGS} EXECUTABLE ${MPIEXEC_POSTFLAGS} ARGS")
+
+if(TARGET CGAL::Eigen3_support)
+  create_single_source_cgal_program("Automata.cpp")
+  create_single_source_cgal_program("Cell.cpp")
+  create_single_source_cgal_program("main.cpp")
+  create_single_source_cgal_program("automata_2d.cpp")
+  
+#  target_link_libraries(Automata PUBLIC CGAL::Eigen3_support MPI::MPI_CXX)
+#  target_link_libraries(Cell PUBLIC CGAL::Eigen3_support MPI::MPI_CXX)
+  target_link_libraries(main PUBLIC CGAL::Eigen3_support MPI::MPI_CXX)
+  target_link_libraries(automata_2d PUBLIC CGAL::CGAL CGAL::Eigen3_support MPI::MPI_CXX)
+
+#  foreach(
+#    target
+#    main
+#    automata_2d)
+#    target_link_libraries(${target} PUBLIC CGAL::Eigen3_support MPI::MPI_CXX Automata Cell)
+#  endforeach()
+else()
+  message("NOTICE: Examples in this directory require Eigen 3.1 (or greater), and will not be compiled.")
+endif()
